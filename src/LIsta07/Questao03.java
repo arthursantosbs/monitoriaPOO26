@@ -1,4 +1,4 @@
-package lista07.q3;
+package LIsta07;
 
 /**
  * QUESTÃO 03: MOTOR DE DESCONTOS PARA E-COMMERCE
