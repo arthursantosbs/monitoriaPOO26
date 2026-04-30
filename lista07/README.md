@@ -3,37 +3,37 @@
 ## 📁 Estrutura Organizada
 
 ```
-lista07/
-├── q1/Questao01.java    ← Sistema Fiscal (Polimorfismo)
-├── q2/Questao02.java    ← Armazenamento com Cache (LSP)
-├── q3/Questao03.java    ← Motor de Descontos (Strategy)
-└── q4/Questao04.java    ← Sistema de Log (Polimorfismo)
+src/
+├── Questao01.java    ← Sistema Fiscal (Polimorfismo)
+├── Questao02.java    ← Armazenamento com Cache (LSP)
+├── Questao03.java    ← Motor de Descontos (Strategy)
+└── Questao04.java    ← Sistema de Log (Polimorfismo)
 ```
 
 ## 🚀 Como Executar
 
 ### Questão 01 - Sistema Fiscal
 ```bash
-javac lista07/q1/Questao01.java
-java lista07.q1.Questao01
+javac src/Questao01.java
+java Questao01
 ```
 
 ### Questão 02 - Armazenamento com Cache
 ```bash
-javac lista07/q2/Questao02.java
-java lista07.q2.Questao02
+javac src/Questao02.java
+java Questao02
 ```
 
 ### Questão 03 - Motor de Descontos
 ```bash
-javac lista07/q3/Questao03.java
-java lista07.q3.Questao03
+javac src/Questao03.java
+java Questao03
 ```
 
 ### Questão 04 - Sistema de Log
 ```bash
-javac lista07/q4/Questao04.java
-java lista07.q4.Questao04
+javac src/Questao04.java
+java Questao04
 ```
 
 ## 📚 Conceitos Abordados
