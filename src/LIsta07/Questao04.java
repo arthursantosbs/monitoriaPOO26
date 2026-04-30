@@ -1,4 +1,4 @@
-package lista07.q4;
+package LIsta07;
 
 /**
  * QUESTÃO 04: SISTEMA DE LOG COM POLIMORFISMO

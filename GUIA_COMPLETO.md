@@ -1,5 +1,13 @@
 # 📚 PILARES DA ORIENTAÇÃO A OBJETOS - GUIA COMPLETO
 
+## 👨‍🏫 SITE DO PROFESSOR
+
+**Disciplina:** Programação Orientada a Objetos  
+**Professor:** Antonio Dias  
+**Site:** [https://antoniodias.me/docs/disciplinas/poo-ads/](https://antoniodias.me/docs/disciplinas/poo-ads/)
+
+---
+
 ## Bem-vindo! Bem-vindo ao curso de OO em Java!
 
 Este projeto contém **4 aulas práticas** sobre os pilares fundamentais da Programação Orientada a Objetos (POO) com exemplos hands-on e bem organizados.
@@ -376,4 +384,3 @@ Lembre-se: **"Ler código é tão importante quanto escrevê-lo!"**
 ---
 
 **Bom estudo! 🚀📚**
-

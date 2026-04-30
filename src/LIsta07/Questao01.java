@@ -1,4 +1,4 @@
-package lista07.q1;
+package LIsta07;
 
 /**
  * QUESTÃO 01: SISTEMA DE AUTOMAÇÃO FISCAL

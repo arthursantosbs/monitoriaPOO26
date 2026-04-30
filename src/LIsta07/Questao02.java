@@ -1,4 +1,4 @@
-package lista07.q2;
+package LIsta07;
 
 /**
  * QUESTÃO 02: SISTEMA DE ARMAZENAMENTO COM CACHE
