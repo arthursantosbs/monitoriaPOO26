@@ -18,7 +18,8 @@ Este projeto contém exemplos práticos, bem organizados e fáceis de entender.
  ┃ ┣ 📄 Aula2_Heranca.java          ← Pilar 2: Reutilização
  ┃ ┣ 📄 Aula3_Polimorfismo.java     ← Pilar 3: Múltiplas formas
  ┃ ┣ 📄 Aula4_Abstracao.java        ← Pilar 4: Simplicidade
- ┃ ┗ 📄 CheatSheet.java             ← Quick Reference (resumo)
+ ┃ ┣ 📄 CheatSheet.java             ← Quick Reference (resumo)
+ ┃ ┗ 📂 exercicios/excecoes/        ← Lista de exercícios sobre exceções
  ┗ 📄 .iml                           ← Configuração do projeto
 ```
 
@@ -333,4 +334,3 @@ Dúvidas? Sugestões? Aqui está o que fazer:
 ║  VOCÊ VAI APRENDER OO E VAI AMAR! 💪   ║
 ╚════════════════════════════════════════╝
 ```
-
