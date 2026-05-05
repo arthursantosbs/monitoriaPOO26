@@ -27,5 +27,19 @@ src/exercicios/excecoes/
     └── SaldoInsuficienteException.java
 ```
 
-#
+## Como compilar
+
+Execute a partir da raiz do projeto:
+
+```bash
+javac -encoding UTF-8 -d out/exercicios $(find src/exercicios/excecoes -name "*.java")
+```
+
+## Como executar
+
+```bash
+java -cp out/exercicios exercicios.excecoes.exercicio01.ConversorDeNotas
+java -cp out/exercicios exercicios.excecoes.exercicio02.Exercicio02
+java -cp out/exercicios exercicios.excecoes.exercicio03.Exercicio03
+java -cp out/exercicios exercicios.excecoes.exercicio04.Exercicio04
 ```
