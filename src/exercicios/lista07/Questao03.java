@@ -1,4 +1,4 @@
-package LIsta07;
+package exercicios.lista07;
 
 /**
  * QUESTÃO 03: MOTOR DE DESCONTOS PARA E-COMMERCE

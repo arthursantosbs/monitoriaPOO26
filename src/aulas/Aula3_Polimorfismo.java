@@ -1,3 +1,5 @@
+package aulas;
+
 /**
  * PILAR 3: POLIMORFISMO
  *
@@ -277,4 +279,3 @@ class Gerente implements Funcionario {
         return "Gerente";
     }
 }
-

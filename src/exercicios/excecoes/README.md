@@ -12,8 +12,7 @@ src/exercicios/excecoes/
 │   ├── Exercicio02.java
 │   ├── RelatorioAlunosComFinally.java
 │   ├── RelatorioAlunosTryWithResources.java
-│   ├── RelatorioAlunosUtil.java
-│   └── alunos.csv
+│   └── RelatorioAlunosUtil.java
 ├── exercicio03/
 │   ├── Agenda.java
 │   ├── AgendamentoInvalidoException.java
@@ -25,6 +24,18 @@ src/exercicios/excecoes/
     ├── PagamentoException.java
     ├── ProcessadorDePagamento.java
     └── SaldoInsuficienteException.java
+```
+
+O arquivo de entrada do Exercício 2 fica em:
+
+```text
+resources/exercicios/excecoes/exercicio02/alunos.csv
+```
+
+Os relatórios são gerados em:
+
+```text
+out/relatorios/exercicio02/
 ```
 
 ## Como compilar

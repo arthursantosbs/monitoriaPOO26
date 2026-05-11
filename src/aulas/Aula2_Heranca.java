@@ -1,3 +1,5 @@
+package aulas;
+
 /**
  * PILAR 2: HERANÇA
  *
@@ -184,4 +186,3 @@ class Moto extends Veiculo {
         return marca + " " + modelo + " (" + ano + ")" + (temSidecar ? " COM sidecar" : " SEM sidecar");
     }
 }
-

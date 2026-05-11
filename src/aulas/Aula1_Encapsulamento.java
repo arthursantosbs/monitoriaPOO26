@@ -1,3 +1,5 @@
+package aulas;
+
 /**
  * PILAR 1: ENCAPSULAMENTO
  *
@@ -127,4 +129,3 @@ class ContaBancaria {
         return numeroConta;
     }
 }
-

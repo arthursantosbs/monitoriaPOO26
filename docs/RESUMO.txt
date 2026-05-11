@@ -9,17 +9,17 @@ ESTRUTURA CRIADA:
 📁 /home/arthur/IdeaProjects/MonitoriaPOO26/
 
 📄 Documentação Principal:
-  ✓ README.md              - Página inicial com quick start
-  ✓ GUIA_COMPLETO.md       - Guia detalhado com exercícios
-  ✓ INDICE.md              - Mapa de navegação e plano de estudo
+  ✓ README.md                    - Página inicial com quick start
+  ✓ docs/GUIA_COMPLETO.md        - Guia detalhado com exercícios
+  ✓ docs/INDICE.md               - Mapa de navegação e plano de estudo
 
 🔧 Código Fonte (src/):
-  ✓ Main.java                    - ⭐ EXECUTE ISTO! (demonstra todos os pilares)
-  ✓ Aula1_Encapsulamento.java    - Pilar 1: Proteção de dados
-  ✓ Aula2_Heranca.java           - Pilar 2: Reutilização de código
-  ✓ Aula3_Polimorfismo.java      - Pilar 3: Múltiplas formas
-  ✓ Aula4_Abstracao.java         - Pilar 4: Simplicidade
-  ✓ CheatSheet.java              - Quick reference (resumo)
+  ✓ src/aulas/Main.java                    - EXECUTE ISTO! (demonstra todos os pilares)
+  ✓ src/aulas/Aula1_Encapsulamento.java    - Pilar 1: Proteção de dados
+  ✓ src/aulas/Aula2_Heranca.java           - Pilar 2: Reutilização de código
+  ✓ src/aulas/Aula3_Polimorfismo.java      - Pilar 3: Múltiplas formas
+  ✓ src/aulas/Aula4_Abstracao.java         - Pilar 4: Simplicidade
+  ✓ src/aulas/CheatSheet.java              - Quick reference (resumo)
 
 ESTATÍSTICAS:
 ─────────────────────────────────────────────────────
@@ -89,8 +89,8 @@ COMO USAR:
 
 Opção 1: Executar com Java (Recomendado)
 $ cd /home/arthur/IdeaProjects/MonitoriaPOO26
-$ javac src/*.java
-$ java -cp src Main
+$ javac -encoding UTF-8 -d out/classes $(find src -name "*.java")
+$ java -cp out/classes aulas.Main
 
 Opção 2: Abrir em IDE
 • IntelliJ IDEA
@@ -189,7 +189,7 @@ STATUS DO PROJETO:
 PRÓXIMOS PASSOS:
 ─────────────────────────────────────────────────────
 
-1. Execute: java -cp src Main
+1. Execute: java -cp out/classes aulas.Main
 2. Estude cada arquivo em ordem
 3. Consulte GUIA_COMPLETO.md
 4. Use INDICE.md como mapa
@@ -239,7 +239,7 @@ $ cd /home/arthur/IdeaProjects/MonitoriaPOO26/src
 $ javac *.java
 
 # Executar main com exemplos
-$ java Main
+$ java -cp out/classes aulas.Main
 
 # Executar apenas uma aula (se necessário)
 $ java -cp . Aula1_Encapsulamento  (não é executável, apenas estude)
@@ -250,17 +250,20 @@ ESTRUTURA DE PASTAS:
 /home/arthur/IdeaProjects/MonitoriaPOO26/
 │
 ├── README.md               (Comece por aqui!)
-├── GUIA_COMPLETO.md        (Estude detalhes)
-├── INDICE.md               (Mapa de navegação)
-├── RESUMO.txt              (Este arquivo)
+├── docs/                   (Guias e resumos)
+├── resources/              (Arquivos usados nos exercícios)
 │
 └── src/
-    ├── Main.java           ⭐ EXECUTE ISTO!
-    ├── Aula1_Encapsulamento.java
-    ├── Aula2_Heranca.java
-    ├── Aula3_Polimorfismo.java
-    ├── Aula4_Abstracao.java
-    └── CheatSheet.java
+    ├── aulas/
+    │   ├── Main.java
+    │   ├── Aula1_Encapsulamento.java
+    │   ├── Aula2_Heranca.java
+    │   ├── Aula3_Polimorfismo.java
+    │   ├── Aula4_Abstracao.java
+    │   └── CheatSheet.java
+    └── exercicios/
+        ├── lista07/
+        └── excecoes/
 
 MÉTRICAS DO PROJETO:
 ─────────────────────────────────────────────────────
@@ -290,9 +293,8 @@ IDE Recomendada: IntelliJ IDEA
 
 ════════════════════════════════════════════════════
 
-Execute: java -cp src Main
+Execute: java -cp out/classes aulas.Main
 
 E veja toda a magia dos 4 pilares da OO em ação!
 
 ════════════════════════════════════════════════════
-

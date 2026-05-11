@@ -18,11 +18,12 @@ Este projeto contém **4 aulas práticas** sobre os pilares fundamentais da Prog
 
 ```
 MonitoriaPOO26/
-├── Main.java                    ← Executa todos os exemplos
-├── Aula1_Encapsulamento.java   ← Proteção de dados
-├── Aula2_Heranca.java          ← Reutilização de código
-├── Aula3_Polimorfismo.java     ← Múltiplas formas
-└── Aula4_Abstracao.java        ← Simplicidade
+├── README.md
+├── docs/                       ← Documentação de apoio
+├── resources/                  ← Arquivos usados pelos exercícios
+└── src/
+    ├── aulas/                  ← Exemplos dos 4 pilares
+    └── exercicios/             ← Listas e exercícios resolvidos
 ```
 
 ---
@@ -181,12 +182,12 @@ class Gato implements Animal {
 
 ### Opção 1: Executar tudo de uma vez
 ```bash
-javac src/*.java
-java -cp src Main
+javac -encoding UTF-8 -d out/classes $(find src -name "*.java")
+java -cp out/classes aulas.Main
 ```
 
 ### Opção 2: Usar sua IDE (recomendado)
-1. Abra o arquivo `Main.java`
+1. Abra o arquivo `src/aulas/Main.java`
 2. Clique em "Run" (▶️)
 3. Veja todos os exemplos em ação!
 

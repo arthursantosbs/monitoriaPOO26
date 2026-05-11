@@ -1,3 +1,5 @@
+package aulas;
+
 /**
  * PILAR 4: ABSTRAÇÃO
  *
@@ -319,4 +321,3 @@ class RepositorioBancoDados implements RepositorioDados {
         System.out.println("🔄 Objeto atualizado no banco de dados");
     }
 }
-

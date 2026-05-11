@@ -3,6 +3,8 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
+.agents/
+.codex/
 
 ### Compiled Files ###
 *.class

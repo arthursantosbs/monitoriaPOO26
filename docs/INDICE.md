@@ -10,7 +10,7 @@ Bem-vindo! Este arquivo é seu guia para navegar pelos materials de aprendizado.
 START AQUI ⬇️
 ```
 
-### 1. **README.md** ← Comece aqui!
+### 1. **../README.md** ← Comece aqui!
 📄 Visão geral do projeto e quick start
 - 🎯 O que é cada pilar
 - ⚡ Como executar o código
@@ -21,7 +21,7 @@ START AQUI ⬇️
 ### 2. Execute o programa
 ```bash
 cd /home/arthur/IdeaProjects/MonitoriaPOO26
-java -cp src Main
+java -cp out/classes aulas.Main
 ```
 📺 Veja todos os exemplos rodando!
 
@@ -39,7 +39,7 @@ java -cp src Main
 ### 4. **Arquivos de Aulas**
 Estude na seguinte ordem:
 
-#### **Aula1_Encapsulamento.java** (NÍVEL: Iniciante)
+#### **src/aulas/Aula1_Encapsulamento.java** (NÍVEL: Iniciante)
 ```
 Conceitos:
 ✓ private, public, protected
@@ -54,7 +54,7 @@ Exemplos:
 Tempo: 15-20 min
 ```
 
-#### **Aula2_Heranca.java** (NÍVEL: Iniciante)
+#### **src/aulas/Aula2_Heranca.java** (NÍVEL: Iniciante)
 ```
 Conceitos:
 ✓ extends
@@ -69,7 +69,7 @@ Exemplos:
 Tempo: 20-25 min
 ```
 
-#### **Aula3_Polimorfismo.java** (NÍVEL: Intermediário)
+#### **src/aulas/Aula3_Polimorfismo.java** (NÍVEL: Intermediário)
 ```
 Conceitos:
 ✓ Override (sobrescrita)
@@ -121,36 +121,21 @@ Uso: Consulte quando tiver dúvidas rápidas
 📦 MonitoriaPOO26
 │
 ├── 📄 README.md                      ← Leia primeiro!
-├── 📄 GUIA_COMPLETO.md               ← Guia detalhado
-├── 📄 INDICE.md                      ← Você está aqui
+├── 📂 docs/                          ← Guias e resumos
+├── 📂 resources/                     ← Arquivos usados nos exercícios
 │
 └── 📂 src
-    ├── 🎯 Main.java                  ← Execute isto!
-    │   └── Demonstra todos os 4 pilares
-    │   └── Tempo: ~3 minutos
+    ├── 📂 aulas/                     ← Exemplos dos 4 pilares
+    │   ├── Main.java                 ← Execute isto!
+    │   ├── Aula1_Encapsulamento.java
+    │   ├── Aula2_Heranca.java
+    │   ├── Aula3_Polimorfismo.java
+    │   ├── Aula4_Abstracao.java
+    │   └── CheatSheet.java
     │
-    ├── 📚 Aula1_Encapsulamento.java
-    │   ├── Pessoa (simples)
-    │   └── ContaBancaria (avançado)
-    │
-    ├── 📚 Aula2_Heranca.java
-    │   ├── Animal hierarchy
-    │   └── Veiculo hierarchy
-    │
-    ├── 📚 Aula3_Polimorfismo.java
-    │   ├── FormaGeometrica (override)
-    │   ├── Calculadora (overload)
-    │   ├── Pagamento (polimorfismo)
-    │   └── Funcionario (polimorfismo)
-    │
-    ├── 📚 Aula4_Abstracao.java
-    │   ├── Veiculo2 abstrato
-    │   ├── Animal2 interface
-    │   ├── Pato (múltiplas interfaces)
-    │   └── Repositorio (padrão strategy)
-    │
-    └── 📖 CheatSheet.java
-        └── Quick reference de todos os conceitos
+    └── 📂 exercicios/
+        ├── lista07/
+        └── excecoes/
 ```
 
 ---
@@ -159,8 +144,8 @@ Uso: Consulte quando tiver dúvidas rápidas
 
 ### Dia 1: Fundamentos (1-2 horas)
 - [ ] Leia README.md
-- [ ] Execute Main.java
-- [ ] Estude Aula1_Encapsulamento.java
+- [ ] Execute `aulas.Main`
+- [ ] Estude `src/aulas/Aula1_Encapsulamento.java`
 - [ ] Entenda o conceito de proteger dados
 
 ### Dia 2: Reutilização (1-2 horas)
@@ -382,4 +367,3 @@ Estude, pratique, crie, mude, quebre, conserte, aprenda.
 ║ TODOS OS 4 PILARES ESTÃO PRONTOS PARA VOCÊ!   ║
 ╚════════════════════════════════════════════════╝
 ```
-
