@@ -24,7 +24,7 @@ Esta lista contém 8 questões práticas sobre tratamento de exceções em Java,
 cd /home/arthur/IdeaProjects/MonitoriaPOO26
 
 # Compilar todas as questões
-javac -cp src src/lista08/*.java
+javac -cp src src/exercicios/lista08/*.java
 
 # Executar cada questão
 java -cp src lista08.Questao01
