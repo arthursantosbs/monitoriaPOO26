@@ -1,4 +1,4 @@
-package lista08;
+package exercicios.lista08;
 
 /**
  * QUESTÃO 08: SISTEMA DE PAGAMENTOS COM HIERARQUIA DE EXCEÇÕES

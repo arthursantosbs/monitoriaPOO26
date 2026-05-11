@@ -1,4 +1,4 @@
-package lista08;
+package exercicios.lista08;
 
 /**
  * QUESTÃO 05: CONVERSOR DE NOTAS PARA CONCEITOS

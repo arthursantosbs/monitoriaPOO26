@@ -1,4 +1,4 @@
-package lista08;
+package exercicios.lista08;
 
 /**
  * QUESTÃO 01: VALIDAÇÃO DE ALUNOS COM EXCEÇÕES
